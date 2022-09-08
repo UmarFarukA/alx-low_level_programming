@@ -1,12 +1,12 @@
 /**
- * File: Prints the size of various types on the computer 
+ * File: 6-size.c
  * Auth: Umar Faruk A<talk2ufaz@gmail.com>
  */
 
 #include <stdio.h>
 
 /**
- * main: Print the size of  various types on the commputer
+ * main- Print the size of  various types on the commputer
  *
  * Return: Always (0)
  */
