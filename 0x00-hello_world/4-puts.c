@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * Author: Umar Faruk A 
+ * Auth: Umar Faruk A <talk2ufaz@gmail.com>
  */
 
 #include <stdio.h>
