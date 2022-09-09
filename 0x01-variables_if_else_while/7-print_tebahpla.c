@@ -7,9 +7,9 @@
 #include <stdio.h>
 
 /**
- * main - "Print alphabets in reverse order
+ * main - Print alphabets in reverse order
  *
- * Return: Always (0)
+ * Return: 0
  */
 
 int main(void)
