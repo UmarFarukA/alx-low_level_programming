@@ -4,7 +4,7 @@
  * Auth: Umar Faruk A<talk2ufaz@gmail.com>
  */
 
-#include <stdin.h>
+#include <stdio.h>
 
 /**
  *
