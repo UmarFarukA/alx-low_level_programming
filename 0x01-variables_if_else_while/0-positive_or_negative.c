@@ -1,17 +1,16 @@
-#include <stdio.h>
-#include <time.h>
-
 /**
  * File: 0-positive_or_negative.c
  * Auth: Umar Faruk A <talk2ufaz@gmail.com>
  */
+
+#include <stdio.h>
+#include <time.h>
 
 /**
  * main - Entry points
  *
  * Return: Always (0)
  */
-
 int main(void)
 {
 	int n;
