@@ -1,6 +1,5 @@
 /**
- * File: 7-prints_tehbahpla
- *
+ * File: 7-print_tebahpla.c
  * Auth: Umar Faruk A <talk2ufaz@gmail.com>
  */
 
