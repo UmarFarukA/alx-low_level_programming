@@ -3,6 +3,7 @@
  * Auth: Umar Faruk A <talk2ufaz@gmail.com>
  */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
