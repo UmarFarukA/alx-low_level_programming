@@ -15,16 +15,15 @@ int main(void)
 {
 	char i;
 
-	for(i='a'; i<='z'; i++)
+	for (i == 'a'; i <= 'z'; i++)
 	{
-		if(i== 'q' || i == 'e')
+		if (i == 'q' || i == 'e')
 		{
 
 		}
 		else
 		{
 			putchar(i);
-			putchar('\n');
 		}
 	}
 
