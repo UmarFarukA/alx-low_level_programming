@@ -3,7 +3,7 @@
  * Auth: umar faruk A <talk2ufaz@gmail.com>
  */
 
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Print all letters except q and e
