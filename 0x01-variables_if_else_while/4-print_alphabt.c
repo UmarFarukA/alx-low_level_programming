@@ -1,8 +1,3 @@
-/**
- * File: 4-print_alphabets.c
- * Auth: umar faruk A <talk2ufaz@gmail.com>
- */
-
 #include <stdio.h>
 
 /**
@@ -10,7 +5,6 @@
  *
  * Return: Always(0)
  */
-
 int main(void)
 {
 	char i;
@@ -19,6 +13,7 @@ int main(void)
 	{
 		if (i == 'q' || i == 'e')
 		{
+			continue;
 
 		}
 		else
@@ -26,6 +21,6 @@ int main(void)
 			putchar(i);
 		}
 	}
-
-	return 0;
+	putchar('\n');
+	return (0);
 }
