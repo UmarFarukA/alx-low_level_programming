@@ -1,8 +1,3 @@
-/**
- * File: 8-print_base16.c
- * Auth: Umar Faruk A
- */
-
 #include <stdio.h>
 
 /**
@@ -24,9 +19,7 @@ int main(void)
 	{
 		putchar(j);
 	}
-
 	putchar('\n');
-
 	return (0);
 
 }
