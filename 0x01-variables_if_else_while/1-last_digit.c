@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - Printst the last digit of a  
- * Return: Always (0)
+ * main - Print last digit
+ * Return: Always
  */
 int main(void)
 {
@@ -14,12 +14,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
        	last_digit = n % 10;
-
 	if (last_digit > 0 && last_digit < 6)
 	{
-		printf("Last digit of %d is %d and is lessthan 6 and not 0\n", n, last_digit);
+		printf("Last digit of %d is %d and is lessthan 6 and not 0\n"\
+				, n, last_digit);
 	}
 	else if (last_digit == 0)
 	{
