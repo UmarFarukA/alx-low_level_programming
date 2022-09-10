@@ -11,7 +11,7 @@ int main(void)
 	int k;
 	int result;
 
-	for (k = 0; k <= 10; k++)
+	for (k = 0; k < 10; k++)
 	{
 		result = k % 10;
 		putchar(result + '0');
