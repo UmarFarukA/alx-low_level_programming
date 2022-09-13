@@ -1,7 +1,18 @@
 #include <unistd.h>
 
 /**
- * _putchar - write character to stdout
- * @c: THe character to print
- * Return: 1 on successful write to stdout
+ * print_alphabet - Prints alphabet in lowercase
+ *
+ * Return: void on successful write to stdout
  */
+void print_alphabet(void)
+{
+	char j = 'a';
+
+	while (j <= 'z')
+	{
+		_putchar(j);
+		j++
+	}
+	_putchar('\n');
+}
