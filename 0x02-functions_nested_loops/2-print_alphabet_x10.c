@@ -1,18 +1,4 @@
-#include <stdio.h>
-#include "_putchar.c"
-
-void print_alphabet_x10(void);
-
-/**
- * main - Called the print_alphabet_x10
- *
- * Return: Always (0).
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
+#include "main.h"
 
 /**
  * print_alphabet_x10 - print alphabet 10x.
