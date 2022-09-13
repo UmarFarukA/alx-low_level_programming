@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "_putchar.c"
 
-int print_alphabet(void);
+void print_alphabet(void);
 /**
  * main - Called the print function
  *
@@ -18,7 +18,7 @@ int main(void)
  *
  * Return: Always (0).
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char j = 'a';
 
@@ -27,5 +27,4 @@ int print_alphabet(void)
 		_putchar(j);
 	}
 	_putchar('\n');
-	return (0);
 }
