@@ -21,14 +21,12 @@ void times_table(void)
 			if (j < 9)
 			{
 				if (k < 10)
-					putchar(',');
-					putchar(' '); 
+					printf("%d, ", k);
 				else
-					putchar(' ');
+					printf("%d, ", k);
 			}
 			else
-				putchar('');
-			printf("%d", k);
+				printf("%d", k);
 
 		}
 		printf("\n");
