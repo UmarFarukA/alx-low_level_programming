@@ -19,7 +19,6 @@ void print_to_98(int n)
 			printf("%d, ", k);
 		}
 		printf("%d", last);
-		printf("\n");
 	}
 	else if (n < 98)
 	{
@@ -30,11 +29,9 @@ void print_to_98(int n)
 			printf("%d, ", j);
 		}
 		printf("%d", last);
-		printf("\n");
 	}
 	else if (n == 98)
 	{
 		printf("%d", n);
 	}
-	printf("\n");
 }
