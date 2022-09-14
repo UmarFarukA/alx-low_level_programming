@@ -23,10 +23,10 @@ void times_table(void)
 				if (k < 10)
 					printf("%d,  ", k);
 				else
-					printf(" %d", k);
+					printf("%d ", k);
 			}
 			else
-				printf(" %d", k);
+				printf("%d ", k);
 		}
 		printf("\n");
 	}
