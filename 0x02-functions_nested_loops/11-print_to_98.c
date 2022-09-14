@@ -19,6 +19,7 @@ void print_to_98(int n)
 			printf("%d, ", k);
 		}
 		printf("%d", last);
+		printf('\n');
 	}
 	else if (n < 98)
 	{
