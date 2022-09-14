@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,6 +14,7 @@ void print_to_98(int n)
 
 		for (k = n; k >= 98; k--)
 		{
+			printf("%d, ", k);
 		}
 	}
 	else if (n < 98)
@@ -21,7 +23,12 @@ void print_to_98(int n)
 
 		for (j = n; j <= 98; j++)
 		{
+			printf("%d, ", j);
 		}
+	}
+	else if (n == 98)
+	{
+		printf("%d", n);
 	}
 	return (0);
 }
