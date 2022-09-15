@@ -7,18 +7,17 @@
  */
 void print_sqaure(int size)
 {
+	int j = 1;
+	int k = 1;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		int j = 1;
-
 		while (j <= size)
 		{
-			int k = 1;
-
 			while (k <= size)
 			{
 				_putchar('#');
