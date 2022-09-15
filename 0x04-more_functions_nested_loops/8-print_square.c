@@ -23,6 +23,7 @@ void print_sqaure(int size)
 				_putchar('#');
 				k++;
 			}
+			k = 1;
 			j++;
 			_putchar('\n');
 		}
