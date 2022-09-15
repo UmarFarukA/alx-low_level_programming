@@ -21,4 +21,5 @@ void print_line(int n)
 			j++;
 		}
 	}
+	_putchar('\n');
 }
