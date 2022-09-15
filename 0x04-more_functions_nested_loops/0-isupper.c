@@ -8,15 +8,8 @@
  */
 int _isupper(int c)
 {
-	int k;
-
 	if (isupper(c))
-	{
-		k = 1;
-	}
+		return (1);
 	else
-	{
-		k = 0;
-	}
-	return (k);
+		return (0);
 }
