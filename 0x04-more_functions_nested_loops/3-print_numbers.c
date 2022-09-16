@@ -3,13 +3,13 @@
 /**
  * print_numbers - Print numbers
  *
- * Return: void
+ * Return: 0 
  */
 void print_numbers(void)
 {
-	int j = 0;
+	char j = '0';
 
-	while (j <= 9)
+	while (j <= '9')
 	{
 		_putchar(j);
 		j++;
