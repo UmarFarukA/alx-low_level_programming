@@ -27,8 +27,9 @@ int main(void)
 		{
 			printf("%d ", k);
 		}
+		if (k == 100)
+			putchar('\n');
 		k++;
-		printf("\n");
 	}
 	return (0);
 }
