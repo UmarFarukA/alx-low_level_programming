@@ -28,7 +28,7 @@ int main(void)
 			printf("%d ", k);
 		}
 		k++;
+		printf("\n");
 	}
-	printf("\n");
 	return (0);
 }
