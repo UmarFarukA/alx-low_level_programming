@@ -21,7 +21,10 @@ int main(void)
 		}
 		else if (k % 5 == 0)
 		{
-			printf("Buzz ");
+			if (k == 100)
+				printf("Buzz\n");
+			else
+				printf("Buzz ");
 		}
 		else
 		{
@@ -29,6 +32,5 @@ int main(void)
 		}
 		k++;
 	}
-	putchar('\n');
 	return (0);
 }
