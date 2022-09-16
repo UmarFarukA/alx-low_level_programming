@@ -13,9 +13,24 @@ void print_triangle(int size)
 	}
 	else
 	{
-		char s = ' ';
 		int j = 1;
+		int k = 0;
+		int space;
 
-		while (size >= j)
+		while (size > j)
 		{
-
+			space = size - j;
+			while (k < size)
+			{
+				if (space > k)
+					_putchar(' ');
+				else
+					_putchar('#');
+				k++;
+			}
+			j++;
+			k = 0;
+			_putchar('\n');
+		}
+	}
+}
