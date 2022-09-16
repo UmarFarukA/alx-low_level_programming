@@ -1,10 +1,10 @@
-#include <ctype.h>
-#include "main.h"
+#include "main.c"
+#include <ctype>
 
 /**
  * _isupper - Checks if character is upper
- * @c: THe character passed
- * Return: 1 if true otherwise 0.
+ * @c: The character passed
+ * Return: 1 if true c is upper otherwise 0.
  */
 int _isupper(int c)
 {
@@ -13,3 +13,4 @@ int _isupper(int c)
 	else
 		return (0);
 }
+
