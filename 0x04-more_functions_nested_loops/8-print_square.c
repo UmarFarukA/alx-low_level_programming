@@ -5,7 +5,7 @@
  * @size: The size of the square to be printed
  * Return: void
  */
-void print_sqaure(int size)
+void print_square(int size)
 {
 	int j = 1;
 	int k = 1;
