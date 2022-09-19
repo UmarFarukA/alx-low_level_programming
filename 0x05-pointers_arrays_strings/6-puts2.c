@@ -1,6 +1,8 @@
 #include <string.h>
 #include "main.h"
 
+void puts2(char *str);
+
 /**
  * puts2 - Print every other character
  * @str: The string passed
