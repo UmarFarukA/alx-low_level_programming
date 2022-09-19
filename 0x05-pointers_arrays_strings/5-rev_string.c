@@ -14,6 +14,9 @@ void rev_string(char *s)
 	int j;
 
 	len = strlen(s);
+	for (j = 0; j <= len; j++)
+	{
+	}
 	for (j = len; j >= 0; j--)
 	{
 		if (s[j] != '\0')
