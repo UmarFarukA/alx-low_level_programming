@@ -6,7 +6,7 @@
  * @str: The string passed
  * Return: Nothing
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int j;
 	int len;
