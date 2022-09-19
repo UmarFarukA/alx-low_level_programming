@@ -30,7 +30,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		half_len = (f_l + 1) / 2;
+		half_len = (f_l - 1) / 2;
 		for (j = half_len; j <= f_l; j++)
 		{
 			if (str[j] != '\0')
