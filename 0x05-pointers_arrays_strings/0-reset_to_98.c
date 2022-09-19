@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - Reset the value to 98
- * @p: THe point used
+ * @n: THe point used
  *
  * Return: Nothing
  */
