@@ -1,5 +1,4 @@
 #include <string.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -12,6 +11,6 @@ void print_rev(char *s)
 	char k;
 
 	k = strrev(s);
-	_putchar(s);
+	_putchar(k);
 	_putchar('\n');
 }
