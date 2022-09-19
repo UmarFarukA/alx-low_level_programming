@@ -14,10 +14,6 @@ void rev_string(char *s)
 	int j;
 
 	len = strlen(s);
-	for (j = 0; j <= len; j++)
-	{
-		_putchar(s[j]);
-	}
 	for (j = len; j >= 0; j--)
 	{
 		if (s[j] != '\0')
@@ -29,4 +25,5 @@ void rev_string(char *s)
 			continue;
 		}
 	}
+	_putchar('\n');
 }
