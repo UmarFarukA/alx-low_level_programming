@@ -11,21 +11,21 @@ void rev_string(char *s);
 void rev_string(char *s)
 {
 	int len;
-	char rev;`
+	int k;
 	int j;
 
 	len = strlen(s);
-	rev[len];
+	char rev[len];
 	for (j = len; j >= 0; j--)
 	{
+		k = len - j;
 		if (s[j] != '\0')
 		{
-			rev[len - j] = s[j];
+			rev[k] = s[j];
 		}
 		else
 		{
 			continue;
 		}
 	}
-	return (rev);
 }
