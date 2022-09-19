@@ -19,7 +19,7 @@ void puts_half(char *str)
 	for (j = half_len; j <= len; j++)
 	{
 		if (str[half_len] != '\0')
-			_putchar(str[half_len]);
+			_putchar(str[j]);
 		else
 			continue;
 	}
