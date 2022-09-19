@@ -18,7 +18,7 @@ void rev_string(char *s)
 	{
 		if (s[j] != '\0')
 		{
-			s[j];
+			_putchar(s[j]);
 		}
 		else
 		{
