@@ -16,10 +16,9 @@ void reverse_array(int *a, int n)
 	for (j = n; n >= 0; j--)
 	{
 		if (j == 0)
-			_putchar(a[j]);
+			printf("%d\n", a[j]);
 		else
-			_putchar(a[j]);
-			_putchar(', ');
+			printf("%d, ", a[j]);
 	}
 	return (0);
 }
