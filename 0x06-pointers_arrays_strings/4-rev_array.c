@@ -15,10 +15,11 @@ void reverse_array(int *a, int n)
 
 	for (j = n; n >= 0; j--)
 	{
-		if (j != 0)
-			_putchar(', ');
+		if (j == 0)
+			_putchar(a[j]);
 		else
 			_putchar(a[j]);
+			_putchar(', ');
 	}
 	return (0);
 }
