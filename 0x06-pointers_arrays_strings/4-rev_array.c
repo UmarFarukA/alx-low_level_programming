@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 		{
 			printf(", ");
 		}
-		printf("%d", *(a + j));
+		printf("%d", a[j]);
 	}
 	printf("\n");
 }
