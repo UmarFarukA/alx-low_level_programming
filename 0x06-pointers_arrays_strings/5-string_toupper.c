@@ -2,15 +2,15 @@
 #include <string.h>
 #include "main.h"
 
-char *string_toupper(char *);
+char *string_toupper(char *a);
 
 /**
  * string_toupper - Changeletter case t
+ * @a: String
  * Return: String
  */
-char string_toupper(char *)
+char *string_toupper(char *a)
 {
-	char a[];
 	int j;
 	char k;
 
