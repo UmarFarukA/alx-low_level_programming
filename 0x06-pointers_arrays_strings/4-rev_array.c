@@ -20,5 +20,5 @@ void reverse_array(int *a, int n)
 		else
 			printf("%d, ", *(a + j));
 	}
-	_putchar('\n');
+	printf("\n");
 }
