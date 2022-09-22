@@ -7,7 +7,7 @@ void reverse_array(int *a, int n);
  * reverse_array - Reverse an arry elements
  * @a: The array
  * @n: The number of elements in 'a'
- * Return: Nothing
+ * Return: 0
  */
 void reverse_array(int *a, int n)
 {
@@ -17,11 +17,13 @@ void reverse_array(int *a, int n)
 	{
 		if (j == 0)
 		{
-			printf("%d\n", *(a));
+			_putchar(*(a));
 		}
 		else
 		{
-			printf("%d, ", *(a + j));
+			_putchar(*(a + j));
+			_putchar(', ');
 		}
 	}
+	_putchar('\n');
 }
