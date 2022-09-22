@@ -12,14 +12,5 @@ char *_strncat(char *dest, char *src, int n);
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int j;
-
-	if (n <= 0)
-	{
-		return (strncat(dest, src, n));
-	}
-	else
-	{
-		return (strncat(dest, src, n));
-	}
+	return (strncat(dest, src, n));
 }
