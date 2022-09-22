@@ -12,11 +12,13 @@ char *string_toupper(char *a);
 char *string_toupper(char *a)
 {
 	int j;
-	char k;
 
-	for (j = 0; j < strlen(a); j++)
+	for (j = 0; a[j] != '\0'; j++)
 	{
-		_putchar(toupper(a[j]);
+		if (a[j] >= 'a' && a[j] <= 'Z')
+		{
+			a[j] = a[j] - 8;
+		}
 	}
-	_putchar('\n');
+	return (a);
 }
