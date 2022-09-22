@@ -7,7 +7,6 @@ void reverse_array(int *a, int n);
  * reverse_array - Reverse an arry elements
  * @a: The array
  * @n: The number of elements in 'a'
- * Return: 0
  */
 void reverse_array(int *a, int n)
 {
