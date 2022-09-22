@@ -10,20 +10,7 @@ char *_strncpy(char *dest, char *src, int n);
  * @n: number of charcters to copy
  * Return: Dest with copied strings
  */
-char _strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
-
-	if (n <= 0)
-	{
-		return strncpy(dest, src, 0);
-	}
-	else
-	{
-		for (j = 0; j <= n; j++)
-		{
-			dest[j] = src[j];
-		}
-		return (dest);
-	}
+	return (strncpy(dest, src, n));
 }
