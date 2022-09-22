@@ -4,10 +4,10 @@
 void reverse_array(int *a, int n);
 
 /**
- * reverse_array - Reverses an array element
- * @a: The array we consider
- * @n: The size of the array
- * Return: Always 0.
+ * reverse_array - Reverse an arry elements
+ * @a: The array
+ * @n: The number of elements in 'a'
+ * Return: Nothing
  */
 void reverse_array(int *a, int n)
 {
