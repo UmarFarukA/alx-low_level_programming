@@ -17,13 +17,11 @@ void reverse_array(int *a, int n)
 	{
 		if (j == 0)
 		{
-			_putchar(*(a));
+			printf("%d\n", *(a));
 		}
 		else
 		{
-			_putchar(*(a + j));
-			_putchar(', ');
+			printf("%d, ", *(a + j));
 		}
 	}
-	_putchar('\n');
 }
