@@ -9,7 +9,7 @@ char *_strchr(char *s, char c);
  * @c: the c we are locating
  * Return: Match poiter or null
  */
-char _strchar(char *s, char c)
+char *_strchar(char *s, char c)
 {
 	return (strchar(s, c));
 }
