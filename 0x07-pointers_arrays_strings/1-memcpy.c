@@ -8,6 +8,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * @dest: destination of content
  * @src: sourceof content
  * @n: numberof bytes
+ * Return: destination with more bytes
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
