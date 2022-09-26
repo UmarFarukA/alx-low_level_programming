@@ -8,6 +8,7 @@ void print_diagsums(int *a, int size);
  * print_diagsums - sum elements in diagonal
  * @a: array a of elements
  * @size: size of array
+ * Return: sum of diagnomals element
  */
 void print_diagsums(int *a, int size)
 {
