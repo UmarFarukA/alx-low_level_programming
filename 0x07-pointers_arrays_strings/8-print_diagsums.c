@@ -23,7 +23,7 @@ void print_diagsums(int *a, int size)
 	{
 		while (j < size)
 		{
-			sum = sum + *(a[k][j]);
+			sum = sum + (a[k][j]);
 			break;
 		}
 		k = k + 1;
