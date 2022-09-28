@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 void _print_rev_recursion(char *s);
@@ -9,14 +10,7 @@ void _print_rev_recursion(char *s);
  */
 void _print_rev_recursion(char *s)
 {
-	int j;
-
-	j = (s[0] / sizeof(s)) - 1;
-	while (j >= 0)
-	{
-		if (s[j] != '\0')
-			_putchar(s[j]);
-		else
-			j--;
-	}
+	if (*s)
+		_print_rev_recursion(s + 1);
+	printf("%c", *s);
 }
