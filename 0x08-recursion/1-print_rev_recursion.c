@@ -4,7 +4,7 @@
 void _print_rev_recursion(char *s);
 
 /**
- * _print_rev_recursion - Print strings in reversse
+ * _print_rev_recursion - Print reverse string
  * @s: The string passed
  * Return: Nothing
  */
