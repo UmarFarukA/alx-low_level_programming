@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 void _strlen_recursion(char *s);
