@@ -1,6 +1,4 @@
 #include "main.h"
-#include "libm.a"
-#include <math.h>
 
 int _pow_recursion(int x, int y);
 
@@ -13,9 +11,19 @@ int _pow_recursion(int x, int y);
 int _pow_recursion(int x, int y)
 {
 	int k;
+	int result;
 
+	result = 1;
 	if (y < 0)
+	{
 		return (-1);
-	k = pow(x, y);
-	return (k);
+	}
+	else
+	{
+		for (k = y; k > 0; k--)
+		{
+			result = result * k;
+		}
+	}
+	return (result);
 }
