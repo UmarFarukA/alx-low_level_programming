@@ -2,17 +2,14 @@
 #include <string.h>
 #include "main.h"
 
-void _strlen_recursion(char *s);
+int _strlen_recursion(char *s);
 
 /**
  * _strlen_recursion - Get length of string
  * @s: The string passed
- * Return: Void
+ * Return: length of s
  */
-void _strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
-	int k;
-
-	k = strlen(s);
-	printf("%d", k);
+	return (strlen(s));
 }
