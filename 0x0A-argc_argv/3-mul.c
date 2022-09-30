@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -9,10 +10,18 @@
 int main(int argc, char *argv[])
 {
 	int result;
+	int n1;
+	int n2;
 
-	if (argc)
+	if (argc > 2)
 	{
-		result = argv[1] * argv[2];
+		printf("Error\n");
+	}
+	else
+	{
+		n1 = atoi(argv[1]);
+		n2 = atoi(argv[2]);
+		result = n1 * n2;
 		printf("%d\n", result);
 	}
 	return (0);
