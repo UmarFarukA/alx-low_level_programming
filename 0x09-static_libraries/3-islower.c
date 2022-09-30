@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype.h>
+
 /**
  * _islower - Checks if character is lower
  * @c: The charcter that will be pass
