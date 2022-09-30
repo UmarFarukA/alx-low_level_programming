@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -c 
+gcc -c *.c
+ar -rc liball.a *.o
+randlib liball.a
