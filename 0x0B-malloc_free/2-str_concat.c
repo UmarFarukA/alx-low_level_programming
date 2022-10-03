@@ -20,10 +20,10 @@ char *str_concat(char *s1, char *s2)
 	j = 0;
 	while (s1[j] != '\0')
 	{
-		j++;
+		++j;
 	}
 
-	for (k = 0; s2[k] != '\0'; k++, j++)
+	for (k = 0; s2[k] != '\0'; k++, ++j)
 	{
 		s1[j] = s2[k];
 	}
