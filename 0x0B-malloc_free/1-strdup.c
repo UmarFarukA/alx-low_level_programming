@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "main.h"
 #include <string.h>
+#include "main.h"
 
 char *_strdup(char *str);
 
@@ -29,6 +29,5 @@ char *_strdup(char *str)
 		{
 			return (NULL);
 		}
-		free(ptr);
 	}
 }
