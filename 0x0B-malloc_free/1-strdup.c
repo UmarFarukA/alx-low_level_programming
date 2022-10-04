@@ -29,11 +29,6 @@ char *_strdup(char *str)
 	{
 		while (str[j] != '\0')
 		{
-			k++;
-			j++;
-		}
-		while (str[j] != '\0')
-		{
 			ptr[j] = str[j];
 			j++;
 		}
