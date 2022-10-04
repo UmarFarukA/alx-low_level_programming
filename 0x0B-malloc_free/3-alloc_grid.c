@@ -11,8 +11,6 @@ int **alloc_grid(int width, int height);
  */
 int **alloc_grid(int width, int height)
 {
-	int *pt1;
-	int i;
 	int **ptr;
 	int w;
 	int h;
