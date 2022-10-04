@@ -21,13 +21,22 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 	{
 		ptr = malloc(sizeof(s2));
-		ptr = s2;
+		while (s2[j] != '\0')
+		{
+			ptr[j] = s2[j];
+			j++;
+		}
 		return (ptr);
 	}
 	else if (s2 == NULL)
 	{
 		ptr = malloc(sizeof(s1));
-		ptr = s1;
+		j = 0;
+		while (s1[j] != '\0')
+		{
+			ptr[j] = s1[j];
+			j++;
+		}
 		return (ptr);
 	}
 	else if (s2 == NULL && s1 == NULL)
