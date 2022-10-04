@@ -11,6 +11,8 @@ int **alloc_grid(int width, int height);
  */
 int **alloc_grid(int width, int height)
 {
+	int *pt1;
+	int i;
 	int **ptr;
 	int w;
 	int h;
@@ -28,6 +30,11 @@ int **alloc_grid(int width, int height)
 		}
 		else
 		{
+			pt1 = (int *)(ptr + height);
+			for (i = 0; i < height; i++)
+			{
+				ptr[i] = (pt1 + width * i);
+			}
 			for (h = 0; h < height; h++)
 			{
 				for (w = 0; w < width; w++)
