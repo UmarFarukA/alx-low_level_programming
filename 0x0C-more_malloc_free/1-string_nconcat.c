@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			return (NULL);
 		else
 			ptr = strncat(s1, s2, n);
-		return (ptr);
+			return (ptr);
 	}
 	else if (s1 == NULL || s2 == NULL)
 	{
