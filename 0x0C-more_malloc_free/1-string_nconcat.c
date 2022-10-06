@@ -28,6 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else if (s1 == NULL || s2 == NULL)
 	{
-		return (malloc(strlen("")));
+		ptr = malloc(strlen(""));
+		return (ptr);
 	}
 }
