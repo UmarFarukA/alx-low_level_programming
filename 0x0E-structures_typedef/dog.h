@@ -8,7 +8,7 @@
  */
 struct dog
 {
-	char* name[50];
+	char *name;
 	float age;
-	char* owner[50];
-}
+	char *owner;
+};
