@@ -1,5 +1,6 @@
-#include "main.h"
 #include "dog.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 void int_dog(struct dog *d, char *name, float age, char *owner);
 
