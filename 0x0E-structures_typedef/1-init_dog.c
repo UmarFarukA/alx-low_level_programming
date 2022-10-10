@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void int_dog(struct dog *d, char *name, float age, char *owner);
-
 /**
  * init_dog - Initializing the dog
  * @d: The dog struct
