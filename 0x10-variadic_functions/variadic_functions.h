@@ -1,7 +1,6 @@
-#ifndef _VARIADIC_FUNCTIONS_H_
-#define _VARIADIC_FUNCTIONNS_H_
+#ifndef _FUNCTIONS_VARIADIC_H_
+#define _FUNCTIONS_VARIADIC_H_
 #include <stdarg.h>
-
 
 /**
  * struct printer - Type for defining printer
@@ -17,5 +16,4 @@ typedef struct printer
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
-
 #endif
