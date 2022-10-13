@@ -8,8 +8,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int j;
-	int x, total;
+	unsigned int j, x, total;
 	va_list ptr;
 
 	total = 0;
@@ -26,6 +25,6 @@ int sum_them_all(const unsigned int n, ...)
 			total += x;
 		}
 		va_end(ptr);
-		return (total);
+		return ((int)total);
 	}
 }
