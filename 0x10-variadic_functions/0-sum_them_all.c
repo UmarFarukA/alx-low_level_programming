@@ -9,7 +9,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	int j;
-	int total;
+	unsigned int total;
 
 	total = 0;
 	if (n == 0)
