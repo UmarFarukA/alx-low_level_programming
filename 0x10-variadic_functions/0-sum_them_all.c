@@ -1,8 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 
-int sum_them_all(const unsigned int n, ...);
-
 /**
  * sum_them_all - Sum all integers
  * @n: The number of elements
