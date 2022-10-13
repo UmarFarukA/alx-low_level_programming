@@ -6,6 +6,7 @@
  * print_numbers - Print Numbers
  * @separator: A character that separates numbers
  * @n: Number of element
+ * @...: A variable number of argument
  */
 void print_numbers(const char *separator, unsigned int n, ...)
 {
