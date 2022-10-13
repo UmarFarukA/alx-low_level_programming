@@ -4,6 +4,7 @@
 /**
  * sum_them_all - Sum all integers
  * @n: The number of elements
+ * @...: A variable number of arguments
  * Return: Sum of elements
  */
 int sum_them_all(const unsigned int n, ...)
