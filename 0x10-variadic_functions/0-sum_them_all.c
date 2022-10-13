@@ -9,9 +9,8 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	int j;
-	int x;
-	unsigned int total;
+	int j, x, total;
+	va_list ptr;
 
 	total = 0;
 	if (n == 0)
@@ -20,8 +19,6 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	else
 	{
-		va_list ptr;
-
 		va_start(ptr, n);
 		for (j = 0; j < n; j++)
 		{
