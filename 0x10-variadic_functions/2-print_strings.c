@@ -10,8 +10,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	int j;
-	int x;
+	unsigned int j;
 	char *str;
 
 	if (separator == NULL)
