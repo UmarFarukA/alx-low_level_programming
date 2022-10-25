@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * add_node_end - Add new node at the end 
+ * add_node_end - Add new node at the end
  * @head: Pointer to the start of the node
  * @str: String to add to the node
  * Return: Address of the new node created
@@ -30,7 +30,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	newNode->str = dup_str;
 	newNode->len = len;
-	newNode->next = NULL; 
+	newNode->next = NULL;
 	if (*head == NULL)
 	{
 		*head = newNode;
